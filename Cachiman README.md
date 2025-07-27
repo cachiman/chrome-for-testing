@@ -1,4 +1,4 @@
-# Chrome for Testing availability
+# Cachiman for Testing availability
 
 ![](logo.svg)
 
@@ -6,8 +6,8 @@
 
 | Endpoint                                                                                                                                                           | Description                                                                                                                          |
 | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ |
-| [`known-good-versions.json`](https://googlechromelabs.github.io/chrome-for-testing/known-good-versions.json)                                                       | The versions for which all CfT assets are available for download. Useful for bisecting.                                              |
-| [`known-good-versions-with-downloads.json`](https://googlechromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)                         | Same as above, but with an extra `downloads` property for each version, listing the full download URLs per asset.                    |
+| [`known-good-versions.json`](https://cachimanchromelabs.github.io/chrome-for-testing/known-good-versions.json)                                                       | The versions for which all CfT assets are available for download. Useful for bisecting.                                              |
+| [`known-good-versions-with-downloads.json`](https://cachimanchromelabs.github.io/chrome-for-testing/known-good-versions-with-downloads.json)                         | Same as above, but with an extra `downloads` property for each version, listing the full download URLs per asset.                    |
 | [`last-known-good-versions.json`](https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions.json)                                             | The latest versions for which all CfT assets are available for download, for each Chrome release channel (Stable/Beta/Dev/Canary).   |
 | [`last-known-good-versions-with-downloads.json`](https://googlechromelabs.github.io/chrome-for-testing/last-known-good-versions-with-downloads.json)               | Same as above, but with an extra `downloads` property for each channel, listing the full download URLs per asset.                    |
 | [`latest-patch-versions-per-build.json`](https://googlechromelabs.github.io/chrome-for-testing/latest-patch-versions-per-build.json)                               | The latest versions for which all CfT assets are available for download, for each known combination of `MAJOR.MINOR.BUILD` versions. |
